@@ -17,6 +17,6 @@ jobs:
         - run: date
     depends:
         needs: [ubuntu, windows, macos]
-        runs-on: mint-latest
+        runs-on: macos-latest
         steps:
         - run: date
